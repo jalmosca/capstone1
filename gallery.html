@@ -1,0 +1,761 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css?family=Heebo|Roboto+Slab&display=swap" rel="stylesheet">
+
+	<!-- font awesome    -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<!-- animate css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+
+	<!-- animate aos -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+	<!-- external css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+      <!-- favicon -->
+      <link rel="shortcut icon" href="assets/images/logoiconround.ico" type="image/x-icon">
+
+	<!-- js for delay landing subtitle -->
+	<script type="text/javascript">
+		window.onload = function() {
+			document.body.className += " loaded";
+		}
+	</script>
+
+	<title>Gallery - Acsom Kennel</title>
+</head>
+<body id="gallery" class="animated fadeIn">
+
+	<script>
+		AOS.init();
+	</script>
+
+	<!-- Start container  -->
+	<div class="container-fluid">
+
+
+		<div class="row fixed-top">
+
+		<!------------------------------------------------- start of mobile nav -->
+			<div class="col-12 d-block d-md-none p-0">
+				<div class="pos-f-t">
+					<div class="collapse" id="navbarToggleExternalContent">
+						<div class="bg-black-a9 p-4">
+      						<!-- <h5 class="text-white h4">Collapsed content</h5>
+      							<span class="text-muted">Toggleable via the navbar brand.</span> -->
+
+
+      							<!-- side nav bar -->
+      							<div class="wrapper h-100">
+      								<nav id="sidebar">
+
+      									<div class="text-center mynav-items">
+      										<ul class="list-unstyled components">
+      											<li class="nav-item  my-2">
+      												<h1>
+      													<a class="nav-link" href="index.html">
+      														<i class="fas fa-home"></i>
+      													</a>
+      												</h1>
+      												<h3 class="nav-label">HOME</h3>
+      											</li>
+      											<li class="nav-item my-2 active">
+      												<h1>
+      													<a class="nav-link" href="#gallery-section">
+      														<i class="fas fa-images"></i>
+      													</a>
+      												</h1>
+      												<h3 class="nav-label">GALLERY</h3>
+      											</li>
+      											<li class="nav-item my-2">
+      												<h1>
+      													<a class="nav-link" href="about.html">
+      														<i class="fas fa-address-card"></i>
+      													</a>
+      												</h1>
+      												<h3 class="nav-label">ABOUT</h3>
+      											</li>
+      											<li class="nav-item my-2">
+      												<h1>
+      													<a class="nav-link" href="contact.html">
+      														<i class="fas fa-envelope"></i>
+      													</a>
+      												</h1>
+      												<h3 class="nav-label">CONTACT</h3>
+      											</li>
+      										</ul>
+      									</div>
+
+      								</nav>
+
+      							</div>     
+
+      						</div>
+      					</div>
+      					<nav class="navbar navbar-dark bg-black-a9">
+      						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      							<i class="fas fa-paw text-white2"></i>
+      						</button>
+                                          <img id ="mobile-nav-logo" src="assets/images/logoiconround.ico">
+      					</nav>
+      				</div>
+      			</div>
+      		</div>	<!----------------------------------------- end of mobile nav -->
+
+
+      		<!-- start of row for side-nav-bar and content -->
+      		<div class="row">
+
+      			<!------------------------------------------------------ start of side nav -->
+      			<div class="d-none d-md-block col-1 h-100 p-0 fixed-side h-100">
+      				<div class="wrapper h-100 bg-black-a25">
+      					<!-- Sidebar -->
+      					<nav id="sidebar">
+
+      						<div class="sidebar-header text-white2 mb-2 text-center bg-black-a7 pt-3">
+      							<!-- <i class="fas fa-house-damage"></i> -->
+      							<!-- <img src="assets/images/me2.jpg" class="rounded-0 w-75 m-auto"> -->
+      							
+      							<!-- <h1><i class="fas fa-user-circle nav-logo my-5"></i></h1> -->
+                                          <a href="index.html"><img id="mobile-nav-logo" src="assets/images/logoiconround.ico" class="w-75 mt-3 mb-5"></a>
+
+      							<!-- <h1><i class="fas my-icon nav-logo my-5"></i></h1> -->
+
+      							<!-- <h4>Header</h4> -->
+      						</div>
+
+      						<div class="text-center mynav-items">
+      							<ul class="list-unstyled components">
+      								<li class="nav-item  my-2">
+      									<h1>
+      										<a class="nav-link" href="index.html">
+      											<i class="fas fa-home"></i>
+      										</a>
+      									</h1>
+      									<h3 class="nav-label">HOME</h3>
+      								</li>
+      								<li class="nav-item my-2 active">
+      									<h1>
+      										<a class="nav-link" href="#gallery-section">
+      											<i class="fas fa-images"></i>
+      										</a>
+      									</h1>
+      									<h3 class="nav-label">GALLERY</h3>
+      								</li>
+      								<li class="nav-item my-2">
+      									<h1>
+      										<a class="nav-link" href="about.html">
+      											<i class="fas fa-address-card"></i>
+      										</a>
+      									</h1>
+      									<h3 class="nav-label">ABOUT</h3>
+      								</li>
+      								<li class="nav-item my-2">
+      									<h1>
+      										<a class="nav-link" href="contact.html">
+      											<i class="fas fa-envelope"></i>
+      										</a>
+      									</h1>
+      									<h3 class="nav-label">CONTACT</h3>
+      								</li>
+      							</ul>
+      						</div>
+
+                                    <div id="divmsgr" class="sidebar-header text-white2 mb-2 text-center bg-black-a7 py-3">
+                                          <!-- <i class="fas fa-house-damage"></i> -->
+                                          <!-- <img src="assets/images/acsomlogo.png" class="rounded-0 w-100 my-5"> -->
+
+                                          <a href="https://www.facebook.com/acsomkennel/" target="_blank"><h1><i class="fab fa-facebook-square"></i> </h1></a>
+                                          <!-- <h1><i class="fas my-icon nav-logo my-5"></i></h1> -->
+
+                                          <!-- <h4>Header</h4> -->
+                                    </div>
+      					</nav>
+
+      				</div>       
+      			</div> <!----------------------------------------------------- end side nav -->
+
+
+      			<!-- start content -->
+      			<div class="col-12 col-md-11 offset-md-1 col-scroll text-white2">
+      				<!-- start adding content here -->
+
+
+      				<div class="landing-section v-100">
+      					<div class="landing-text-div bg-black-a5 animated zoomIn">
+      						<div class="">
+      							<span class="landing-title">GALLERY</span>
+      						</div>
+
+      						<!-- <span class="landing-subtitle">acsom kennel</span>       -->
+
+
+      					</div> <!-- end of landing-text-div -->
+
+      					<div  class="landing-home-btn">
+      						<a href="#gallery-section" class="arrow-home">
+      							<i class="fas fa-chevron-circle-down text-white2"></i>
+      						</a>
+      					</div>
+      				</div> <!-- end of landing section -->
+      				<!--  -->
+      				<!--  -->
+      				<!--  -->
+
+      			</div> <!-- end content -->
+      		</div> <!-- end of row for side-nav-bar and content -->
+      		<div class="row">
+      			<div id="gallery-main-div" class="col-12 col-md-11 offset-md-1 px-0 my-0 bg-black-a5">
+                              <section id="gallery-section">
+      				<div class="container-fluid">
+            				<div class="row">
+
+            					<div class="col-12">
+            								<h1 class="text-white2 text-center bg-black-a7 mt-4 p-2 rounded">Acsom Kennel Dogs & Bitches</h1>
+            					</div>
+            				</div>
+                    <div class="row mt-4"> <!-- start of breed rows -->
+                      <div class="col-12 col-md-8 offset-md-2">
+                            <h2 id="husky-section" class="text-white2 text-center bg-black-a5 p-2 rounded">Siberian Husky</h2>
+                      </div>
+                    </div>
+            				<div class="row">
+
+                                <div class="col-12 col-md-4">
+                                                <div class="container">
+                                                      
+                                                      <div class="row mb-4">
+                                                            <div class="col-12" data-aos="zoom-in-up">
+                                                                  <h4 class="bg-black-a5 p-2 rounded text-white2 mt-0 text-center">
+                                                                  Maine
+                                                                  </h4>
+                                                                  <div class="card bg-black-a5">
+                                                                       <div class="card-image-wrapper p-4">
+                                                                       		<img class="card-img-top" src="assets/images/dogs/husky/huskygray1.jpg" alt="Card image cap"  data-toggle="modal" data-target="#gallery-modal-div" onclick="document.getElementById('gallery-modal-image').src=this.src" data-toggle="modal" data-target="#gallery-modal-div" onclick="document.getElementById('gallery-modal-image').src=this.src">
+                                                                       </div>
+                                                                       <div class="card-body mt-0">
+                                                                            <p class="card-text text-white3 text-center mb-1">Wooly</p>
+                                                                            <p class="card-text text-white3 text-center mb-1">Female</p>
+                                                                            <p class="card-text text-white3 text-center mb-1">4 years old</p>
+                                                                            <p class="card-text text-white3 text-center mb-1">Gray and White</p>
+                                                                      </div>
+                                                                </div>
+                                                          </div>
+                                                    </div> <!-- end row -->
+
+                                              </div>
+                                        </div> <!-- end column 2 gallery -->
+
+
+                                          <div class="col-12 col-md-4">
+                                                <div class="container">
+                                                      
+                                                      <div class="row mb-4">
+                                                            <div class="col-12" data-aos="zoom-in-up">
+                                                                  <h4 class="bg-black-a5 p-2 rounded text-white2 mt-0 text-center">
+                                                                  Juno
+                                                                  </h4>
+                                                                  <div class="card bg-black-a5">
+                                                                       <div class="card-image-wrapper p-4">
+                                                                       		<img class="card-img-top" src="assets/images/dogs/husky/huskyred1.jpg" alt="Card image cap"  data-toggle="modal" data-target="#gallery-modal-div" onclick="document.getElementById('gallery-modal-image').src=this.src">
+                                                                       </div>
+                                                                       <div class="card-body mt-0">
+                                                                            <p class="card-text text-white3 text-center mb-1">Wooly</p>
+                                                                            <p class="card-text text-white3 text-center mb-1">Female</p>
+                                                                            <p class="card-text text-white3 text-center mb-1">5 years old</p>
+                                                                            <p class="card-text text-white3 text-center mb-1">Red and White</p>
+                                                                      </div>
+                                                                </div>
+                                                          </div>
+                                                    </div> <!-- end row -->
+
+                                              </div>
+                                        </div> <!-- end column 2 gallery -->
+
+
+                                          <div class="col-12 col-md-4">
+                                                <div class="container">
+                                                
+                                                      <div class="row mb-4">
+                                                            <div class="col-12" data-aos="zoom-in-up">
+                                                                  <h4 class="bg-black-a5 p-2 rounded text-white2 mt-0 text-center">
+                                                                  Gwineth
+                                                                  </h4>
+                                                                  <div class="card bg-black-a5">
+                                                                       <div class="card-image-wrapper p-4">
+                                                                       		<img class="card-img-top" src="assets/images/dogs/husky/huskyblack1.jpg" alt="Card image cap"  data-toggle="modal" data-target="#gallery-modal-div" onclick="document.getElementById('gallery-modal-image').src=this.src">
+                                                                       </div>
+                                                                       <div class="card-body mt-0">
+                                                                            <p class="card-text text-white3 text-center mb-1">Wooly</p>
+                                                                            <p class="card-text text-white3 text-center mb-1">Female</p>
+                                                                            <p class="card-text text-white3 text-center mb-1">2 years old</p>
+                                                                            <p class="card-text text-white3 text-center mb-1">Black and White</p>
+                                                                      </div>
+                                                                </div>
+                                                          </div>
+                                                    	</div> <!-- end row -->
+
+                                              </div>
+                                        </div> <!-- end column 3 gallery -->
+
+            				</div> <!-- end of breed row -->
+
+            				<div class="row mt-4"> <!-- start of breed rows -->
+			                      <div class="col-12 col-md-8 offset-md-2">
+			                            <h2 id="bulldog-section" class="text-white2 text-center bg-black-a5 py-2 rounded">Bulldog</h2>
+			                      </div>
+                    		</div>
+            				<div class="row">
+            					<div class="d-none d-md-block col-md-2 mx-0 px-0">
+            					</div>
+            					<div class="col-12 col-md-4 mx-0 px-0">
+                                        <div class="container">
+                                              <div class="row mb-4">
+                                                    <div class="col-12" data-aos="zoom-in-up">
+                                                          <h4 class="bg-black-a5 p-2 rounded text-white2 mt-0 text-center">
+                                                          Meatballz
+                                                          </h4>
+                                                          <div class="card bg-black-a5">
+                                                                       <div class="card-image-wrapper p-4">
+                                                                       		<img class="card-img-top" src="assets/images/dogs/bulldog/bulldog1.jpg" alt="Card image cap"  data-toggle="modal" data-target="#gallery-modal-div" onclick="document.getElementById('gallery-modal-image').src=this.src">
+                                                                       </div>
+                                                               <div class="card-body mt-0">
+                                                                    <p class="card-text text-white3 text-center mb-1">English Bulldog</p>
+                                                                    <p class="card-text text-white3 text-center mb-1">Female</p>
+                                                                    <p class="card-text text-white3 text-center mb-1">2 months old</p>
+                                                                    <p class="card-text text-white3 text-center mb-1">Tan and White</p>
+                                                                </div>
+                                                          </div>
+                                                    </div>
+                                              </div> <!-- end row -->
+
+                                      </div>
+                                </div> <!-- end column 1 gallery -->
+
+
+	                            <div class="col-12 col-md-4">
+	                                    <div class="container">
+	                                          
+	                                        <div class="row mb-4">
+	                                                <div class="col-12" data-aos="zoom-in-up">
+	                                                      <h4 class="bg-black-a5 p-2 rounded text-white2 mt-0 text-center">
+	                                                      Hulk the Destroyer
+	                                                      </h4>
+	                                                      <div class="card bg-black-a5">
+                                                                       <div class="card-image-wrapper p-4">
+                                                                       		<img class="card-img-top" src="assets/images/dogs/bulldog/bulldog2.jpeg" alt="Card image cap"  data-toggle="modal" data-target="#gallery-modal-div" onclick="document.getElementById('gallery-modal-image').src=this.src">
+                                                                       </div>
+	                                                           <div class="card-body mt-0">
+	                                                                <p class="card-text text-white3 text-center mb-1">American Bully</p>
+	                                                                <p class="card-text text-white3 text-center mb-1">Male</p>
+	                                                                <p class="card-text text-white3 text-center mb-1">1 year old</p>
+	                                                                <p class="card-text text-white3 text-center mb-1">Brindle</p>
+	                                                          </div>
+	                                                    </div>
+	                                              </div>
+	                                        </div> <!-- end row -->
+
+	                                  </div>
+	                            </div> <!-- end column 2 gallery -->
+
+
+            				</div> <!-- end of breed row -->
+
+
+                    <div class="row mt-4"> <!-- start of breed rows -->
+                      <div class="col-12 col-md-8 offset-md-2">
+                            <h2 id="corgi-section" class="text-white2 text-center bg-black-a5 p-2 rounded">Welsh Corgi Pembroke</h2>
+                      </div>
+                    </div>
+            				<div class="row">
+
+                                <div class="col-12 col-md-4">
+                                                <div class="container">
+                                                      
+                                                      <div class="row mb-4">
+                                                            <div class="col-12" data-aos="zoom-in-up">
+                                                                  <h4 class="bg-black-a5 p-2 rounded text-white2 mt-0 text-center">
+                                                                  Sanchai
+                                                                  </h4>
+                                                                  <div class="card bg-black-a5">
+                                                                       <div class="card-image-wrapper p-4">
+                                                                       		<img class="card-img-top" src="assets/images/dogs/corgi/corgi1.jpg" alt="Card image cap"  data-toggle="modal" data-target="#gallery-modal-div" onclick="document.getElementById('gallery-modal-image').src=this.src">
+                                                                       </div>
+                                                                       <div class="card-body mt-0">
+                                                                            <p class="card-text text-white3 text-center mb-1">Taiwan Import</p>
+                                                                            <p class="card-text text-white3 text-center mb-1">Female</p>
+                                                                            <p class="card-text text-white3 text-center mb-1">3 years old</p>
+                                                                            <p class="card-text text-white3 text-center mb-1">Red and White</p>
+                                                                      </div>
+                                                                </div>
+                                                          </div>
+                                                    </div> <!-- end row -->
+
+                                              </div>
+                                        </div> <!-- end column 2 gallery -->
+
+
+                                          <div class="col-12 col-md-4">
+                                                <div class="container">
+                                                      
+                                                      <div class="row mb-4">
+                                                            <div class="col-12" data-aos="zoom-in-up">
+                                                                  <h4 class="bg-black-a5 p-2 rounded text-white2 mt-0 text-center">
+                                                                  Ah long
+                                                                  </h4>
+                                                                  <div class="card bg-black-a5">
+                                                                       <div class="card-image-wrapper p-4">
+                                                                       		<img class="card-img-top" src="assets/images/dogs/corgi/corgi2.jpg" alt="Card image cap"  data-toggle="modal" data-target="#gallery-modal-div" onclick="document.getElementById('gallery-modal-image').src=this.src">
+                                                                       </div>
+                                                                       <div class="card-body mt-0">
+                                                                            <p class="card-text text-white3 text-center mb-1">Local Junior Champion</p>
+                                                                            <p class="card-text text-white3 text-center mb-1">Male</p>
+                                                                            <p class="card-text text-white3 text-center mb-1">3 years old</p>
+                                                                            <p class="card-text text-white3 text-center mb-1">Tricolor</p>
+                                                                      </div>
+                                                                </div>
+                                                          </div>
+                                                    </div> <!-- end row -->
+
+                                              </div>
+                                        </div> <!-- end column 2 gallery -->
+
+
+                                          <div class="col-12 col-md-4">
+                                                <div class="container">
+                                                
+                                                      <div class="row mb-4">
+                                                            <div class="col-12" data-aos="zoom-in-up">
+                                                                  <h4 class="bg-black-a5 p-2 rounded text-white2 mt-0 text-center">
+                                                                  Corgz
+                                                                  </h4>
+                                                                  <div class="card bg-black-a5">
+                                                                       <div class="card-image-wrapper p-4">
+                                                                       		<img class="card-img-top" src="assets/images/dogs/corgi/corgi3.jpg" alt="Card image cap"  data-toggle="modal" data-target="#gallery-modal-div" onclick="document.getElementById('gallery-modal-image').src=this.src">
+                                                                       </div>
+                                                                       <div class="card-body mt-0">
+                                                                            <p class="card-text text-white3 text-center mb-1">Taiwan Import</p>
+                                                                            <p class="card-text text-white3 text-center mb-1">Female</p>
+                                                                            <p class="card-text text-white3 text-center mb-1">3 years old</p>
+                                                                            <p class="card-text text-white3 text-center mb-1">Tricolor</p>
+                                                                      </div>
+                                                                </div>
+                                                          </div>
+                                                    	</div> <!-- end row -->
+
+                                              </div>
+                                        </div> <!-- end column 3 gallery -->
+
+            				</div> <!-- end of breed row -->
+
+
+
+                    <div class="row mt-4"> <!-- start of breed rows -->
+                      <div class="col-12 col-md-8 offset-md-2">
+                            <h2 id="jrt-section" class="text-white2 text-center bg-black-a5 p-2 rounded">Jack Russell Terrier</h2>
+                      </div>
+                    </div>
+            				<div class="row">
+
+                                <div class="col-12 col-md-4">
+                                                <div class="container">
+                                                      
+                                                      <div class="row mb-4">
+                                                            <div class="col-12" data-aos="zoom-in-up">
+                                                                  <h4 class="bg-black-a5 p-2 rounded text-white2 mt-0 text-center">
+                                                                  Dubai
+                                                                  </h4>
+                                                                  <div class="card bg-black-a5">
+                                                                       <div class="card-image-wrapper p-4">
+                                                                       		<img class="card-img-top" src="assets/images/dogs/jrt/jrt1.jpg" alt="Card image cap"  data-toggle="modal" data-target="#gallery-modal-div" onclick="document.getElementById('gallery-modal-image').src=this.src">
+                                                                       </div>
+                                                                       <div class="card-body mt-0">
+                                                                            <p class="card-text text-white3 text-center mb-1">Female</p>
+                                                                            <p class="card-text text-white3 text-center mb-1">5 years old</p>
+                                                                            <p class="card-text text-white3 text-center mb-1">Tan and White</p>
+                                                                      </div>
+                                                                </div>
+                                                          </div>
+                                                    </div> <!-- end row -->
+
+                                              </div>
+                                        </div> <!-- end column 2 gallery -->
+
+
+                                          <div class="col-12 col-md-4">
+                                                <div class="container">
+                                                      
+                                                      <div class="row mb-4">
+                                                            <div class="col-12" data-aos="zoom-in-up">
+                                                                  <h4 class="bg-black-a5 p-2 rounded text-white2 mt-0 text-center">
+                                                                  Milo
+                                                                  </h4>
+                                                                  <div class="card bg-black-a5">
+                                                                       <div class="card-image-wrapper p-4">
+                                                                       		<img class="card-img-top" src="assets/images/dogs/jrt/jrt2.jpg" alt="Card image cap"  data-toggle="modal" data-target="#gallery-modal-div" onclick="document.getElementById('gallery-modal-image').src=this.src">
+                                                                       </div>
+                                                                       <div class="card-body mt-0">
+                                                                            <p class="card-text text-white3 text-center mb-1">Male</p>
+                                                                            <p class="card-text text-white3 text-center mb-1">6 years old</p>
+                                                                            <p class="card-text text-white3 text-center mb-1">Tan and White</p>
+                                                                      </div>
+                                                                </div>
+                                                          </div>
+                                                    </div> <!-- end row -->
+
+                                              </div>
+                                        </div> <!-- end column 2 gallery -->
+
+
+                                          <div class="col-12 col-md-4">
+                                                <div class="container">
+                                                
+                                                      <div class="row mb-4">
+                                                            <div class="col-12" data-aos="zoom-in-up">
+                                                                  <h4 class="bg-black-a5 p-2 rounded text-white2 mt-0 text-center">
+                                                                  Phenelophe
+                                                                  </h4>
+                                                                  <div class="card bg-black-a5">
+                                                                       <div class="card-image-wrapper p-4">
+                                                                       		<img class="card-img-top" src="assets/images/dogs/jrt/jrt3.jpg" alt="Card image cap"  data-toggle="modal" data-target="#gallery-modal-div" onclick="document.getElementById('gallery-modal-image').src=this.src">
+                                                                       </div>
+                                                                       <div class="card-body mt-0">
+                                                                            <p class="card-text text-white3 text-center mb-1">Female</p>
+                                                                            <p class="card-text text-white3 text-center mb-1">2 years old</p>
+                                                                            <p class="card-text text-white3 text-center mb-1">Tricolor</p>
+                                                                      </div>
+                                                                </div>
+                                                          </div>
+                                                    	</div> <!-- end row -->
+
+                                              </div>
+                                        </div> <!-- end column 3 gallery -->
+
+            				</div> <!-- end of breed row -->
+
+
+
+
+
+                    <div class="row mt-4"> <!-- start of breed rows -->
+                      <div class="col-12 col-md-8 offset-md-2">
+                            <h2 class="text-white2 text-center bg-black-a5 p-2 rounded mb-4">Puppies</h2>
+                      </div>
+                    </div>
+            				<div class="row">
+
+                                <div class="col-12 col-md-4">
+                                                <div class="container">
+                                                      
+                                                      <div class="row mb-4">
+                                                            <div class="col-12" data-aos="zoom-in-up">
+                                                                  <div class="card bg-black-a5 mb-4">
+                                                                       <div class="card-image-wrapper p-4">
+                                                                       		<img class="card-img-top" src="assets/images/puppies/1.jpg" alt="Card image cap"  data-toggle="modal" data-target="#gallery-modal-div" onclick="document.getElementById('gallery-modal-image').src=this.src">
+                                                                       </div>
+                                                                </div>
+                                                          </div>
+                                                            <div class="col-12" data-aos="zoom-in-up">
+                                                                  <div class="card bg-black-a5 mb-4">
+                                                                       <div class="card-image-wrapper p-4">
+                                                                       		<img class="card-img-top" src="assets/images/puppies/2.jpg" alt="Card image cap"  data-toggle="modal" data-target="#gallery-modal-div" onclick="document.getElementById('gallery-modal-image').src=this.src">
+                                                                       </div>
+                                                                </div>
+                                                          </div>
+                                                            <div class="col-12" data-aos="zoom-in-up">
+                                                                  <div class="card bg-black-a5 mb-4">
+                                                                       <div class="card-image-wrapper p-4">
+                                                                       		<img class="card-img-top" src="assets/images/puppies/10.jpg" alt="Card image cap"  data-toggle="modal" data-target="#gallery-modal-div" onclick="document.getElementById('gallery-modal-image').src=this.src">
+                                                                       </div>
+                                                                </div>
+                                                          </div>
+                                                            <div class="col-12" data-aos="zoom-in-up">
+                                                                  <div class="card bg-black-a5 mb-4">
+                                                                       <div class="card-image-wrapper p-4">
+                                                                       		<img class="card-img-top" src="assets/images/puppies/4.jpg" alt="Card image cap"  data-toggle="modal" data-target="#gallery-modal-div" onclick="document.getElementById('gallery-modal-image').src=this.src">
+                                                                       </div>
+                                                                </div>
+                                                          </div>
+                                                            <div class="col-12" data-aos="zoom-in-up">
+                                                                  <div class="card bg-black-a5 mb-4">
+                                                                       <div class="card-image-wrapper p-4">
+                                                                       		<img class="card-img-top" src="assets/images/puppies/5.jpg" alt="Card image cap"  data-toggle="modal" data-target="#gallery-modal-div" onclick="document.getElementById('gallery-modal-image').src=this.src">
+                                                                       </div>
+                                                                </div>
+                                                          </div>
+
+                                                    </div> <!-- end row -->
+
+                                              </div>
+                                        </div> <!-- end column 1 gallery -->
+
+                                <div class="col-12 col-md-4">
+                                                <div class="container">
+                                                      
+                                                      <div class="row mb-4">
+                                                            <div class="col-12" data-aos="zoom-in-up">
+                                                                  <div class="card bg-black-a5 mb-4">
+                                                                       <div class="card-image-wrapper p-4">
+                                                                       		<img class="card-img-top" src="assets/images/puppies/6.jpg" alt="Card image cap"  data-toggle="modal" data-target="#gallery-modal-div" onclick="document.getElementById('gallery-modal-image').src=this.src">
+                                                                       </div>
+                                                                </div>
+                                                          </div>
+                                                            <div class="col-12" data-aos="zoom-in-up">
+                                                                  <div class="card bg-black-a5 mb-4">
+                                                                       <div class="card-image-wrapper p-4">
+                                                                       		<img class="card-img-top" src="assets/images/puppies/7.jpg" alt="Card image cap"  data-toggle="modal" data-target="#gallery-modal-div" onclick="document.getElementById('gallery-modal-image').src=this.src">
+                                                                       </div>
+                                                                </div>
+                                                          </div>
+                                                            <div class="col-12" data-aos="zoom-in-up">
+                                                                  <div class="card bg-black-a5 mb-4">
+                                                                       <div class="card-image-wrapper p-4">
+                                                                       		<img class="card-img-top" src="assets/images/puppies/8.jpg" alt="Card image cap"  data-toggle="modal" data-target="#gallery-modal-div" onclick="document.getElementById('gallery-modal-image').src=this.src">
+                                                                       </div>
+                                                                </div>
+                                                          </div>
+                                                            <div class="col-12" data-aos="zoom-in-up">
+                                                                  <div class="card bg-black-a5 mb-4">
+                                                                       <div class="card-image-wrapper p-4">
+                                                                       		<img class="card-img-top" src="assets/images/puppies/9.jpg" alt="Card image cap"  data-toggle="modal" data-target="#gallery-modal-div" onclick="document.getElementById('gallery-modal-image').src=this.src">
+                                                                       </div>
+                                                                </div>
+                                                          </div>
+                                                            <div class="col-12" data-aos="zoom-in-up">
+                                                                  <div class="card bg-black-a5 mb-4">
+                                                                       <div class="card-image-wrapper p-4">
+                                                                       		<img class="card-img-top" src="assets/images/puppies/14.jpg" alt="Card image cap"  data-toggle="modal" data-target="#gallery-modal-div" onclick="document.getElementById('gallery-modal-image').src=this.src">
+                                                                       </div>
+                                                                </div>
+                                                          </div>
+
+                                                    </div> <!-- end row -->
+
+                                              </div>
+                                        </div> <!-- end column 1 gallery -->
+
+                                <div class="col-12 col-md-4">
+                                                <div class="container">
+                                                      
+                                                      <div class="row mb-4">
+                                                            <div class="col-12" data-aos="zoom-in-up">
+                                                                  <div class="card bg-black-a5 mb-4">
+                                                                       <div class="card-image-wrapper p-4">
+                                                                       		<img class="card-img-top" src="assets/images/puppies/12.jpg" alt="Card image cap"  data-toggle="modal" data-target="#gallery-modal-div" onclick="document.getElementById('gallery-modal-image').src=this.src">
+                                                                       </div>
+                                                                </div>
+                                                          </div>
+                                                            <div class="col-12" data-aos="zoom-in-up">
+                                                                  <div class="card bg-black-a5 mb-4">
+                                                                       <div class="card-image-wrapper p-4">
+                                                                       		<img class="card-img-top" src="assets/images/puppies/11.jpg" alt="Card image cap"  data-toggle="modal" data-target="#gallery-modal-div" onclick="document.getElementById('gallery-modal-image').src=this.src">
+                                                                       </div>
+                                                                </div>
+                                                          </div>
+                                                            <div class="col-12" data-aos="zoom-in-up">
+                                                                  <div class="card bg-black-a5 mb-4">
+                                                                       <div class="card-image-wrapper p-4">
+                                                                       		<img class="card-img-top" src="assets/images/puppies/3.jpg" alt="Card image cap"  data-toggle="modal" data-target="#gallery-modal-div" onclick="document.getElementById('gallery-modal-image').src=this.src">
+                                                                       </div>
+                                                                </div>
+                                                          </div>
+                                                            <div class="col-12" data-aos="zoom-in-up">
+                                                                  <div class="card bg-black-a5 mb-4">
+                                                                       <div class="card-image-wrapper p-4">
+                                                                       		<img class="card-img-top" src="assets/images/puppies/13.jpg" alt="Card image cap"  data-toggle="modal" data-target="#gallery-modal-div" onclick="document.getElementById('gallery-modal-image').src=this.src">
+                                                                       </div>
+                                                                </div>
+                                                          </div>
+                                                    </div> <!-- end row -->
+
+                                              </div>
+                                        </div> <!-- end column 1 gallery -->
+
+
+
+            				</div> <!-- end of breed row -->
+
+
+
+      				</div>
+      				</section>
+      			</div>
+      		</div>
+
+
+      		<div class="row">
+      			
+      			<div class="col-12">
+
+
+                              <!-- Modal -->
+                  <div class="modal fade bd-example-modal-lg" id="gallery-modal-div" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                      <div class="modal-content bg-black-a5">
+                        <div class="modal-body p-4">
+        					<h3 class="modalclose text-white" data-dismiss="modal">&times;</h3>
+                          <img class="rounded card-img-bottom" id="gallery-modal-image" src="assets/images/dogs/jrt/jrt2.jpg" alt="Selected Image">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+            <!-- END MODAL -->
+      				
+
+      			</div>
+
+      		</div>
+
+
+
+            <!-- MODAL -->
+
+
+
+
+
+
+
+
+
+                  <div class="row">
+                        <div class="col-12 col-md-11 offset-md-1 px-0 py-4 mb-0 mt-5 bg-black-a7">
+
+
+                              <a href="https://www.facebook.com/acsomkennel/" target="_blank" class="text-center text-white2 d-inline d-md-none"><h1><i class="fab fa-facebook-square"></i> </h1></a>
+
+                              <p class="text-center text-white2"><small>Acsom Kennel 2019. All rights reserved &copy</small></p>
+
+                        </div>
+                  </div>
+
+
+
+      	</div><!-- end container -->
+
+
+
+
+
+
+      	<!-- Optional JavaScript -->
+      	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      </body>
+      </html>
